@@ -53,19 +53,11 @@ while (j >= 0 || i >= 0 || overflow == 1)
 if (i < 0)
 val1 = 0;
 else
-<<<<<<< HEAD
-val1 = *(n1 + i) -'0';
-if (j < 0)
-val2 = 0;
-else
-val2 = *(n2 + j) -'0';
-=======
 val1 = *(n1 + i) - '0';
 if (j < 0)
 val2 = 0;
 else
 val2 = *(n2 + j) - '0';
->>>>>>> de5914236aa98854faf51e8e2d9f2b76801670c9
 temp_tot = val1 + val2 + overflow;
 if (temp_tot >= 10)
 overflow = 1;
@@ -84,3 +76,4 @@ return (0);
 rev_string(r);
 return (r);
 }
+
